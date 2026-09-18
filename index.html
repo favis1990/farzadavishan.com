@@ -30,9 +30,12 @@
         Menu
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#top" aria-current="location">Home</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Published Papers</a>
+        <a href="articles.html">Articles</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -41,21 +44,25 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">Operations Research | Data Science | Optimization</p>
-          <h1>Research-driven analytics for complex planning decisions.</h1>
+          <h1>Farzad Avishan</h1>
+          <p class="hero-role">Research Scientist at Air Canada</p>
           <p class="hero-text">
-            I build optimization, predictive modeling, and decision-support solutions for
-            network planning, logistics, transportation, supply chain, and production systems.
+            I combine operations research, predictive modeling, and agentic AI to solve
+            complex planning problems in transportation, logistics, and supply chains.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#contact">Get in touch</a>
-            <a class="button secondary" href="assets/Farzad-Avishan-CV.pdf" download>Download CV</a>
+            <details class="cv-download">
+              <summary class="button secondary">Download CV <span aria-hidden="true">▾</span></summary>
+              <div class="cv-options">
+                <a href="assets/Farzad-Avishan%20academic-CV.pdf" download>Academic CV</a>
+                <a href="assets/Farzad%20Avishan%20brief.pdf" download>Non-academic CV</a>
+              </div>
+            </details>
           </div>
         </div>
-        <figure class="hero-visual">
-          <img
-            src="assets/network-planning.png"
-            alt="Abstract network planning visualization with connected nodes and optimization paths"
-          />
+        <figure class="hero-portrait">
+          <img src="assets/Photo.png" alt="Portrait of Farzad Avishan" />
         </figure>
       </section>
 
@@ -67,39 +74,27 @@
         <div class="flow">
           <p>
             I am a Ph.D. industrial engineer with expertise in optimization under uncertainty,
-            combinatorial optimization, heuristic algorithms, and machine learning. My work spans
+            combinatorial optimization, heuristic algorithms, and machine learning. I completed
+            postdoctoral research at HEC Montreal after receiving my Ph.D. in operations research
+            from Ozyegin University. My work spans
             airline network planning, production and distribution planning, humanitarian logistics,
-            electric vehicle scheduling, and large-scale network design.
+            electric vehicle scheduling, and large-scale network design. I am currently a Research
+            Scientist at Air Canada. I also work with agentic AI and am familiar with building
+            AI-assisted workflows for research and analytical tasks.
           </p>
           <p>
-            I completed postdoctoral research at HEC Montreal after receiving my Ph.D. in operations
-            research from Ozyegin University. I am an active member of CIRRELT and GERAD, and I work
-            with both classical optimization tools and modern AI-assisted development environments.
+            <strong>5+ years</strong>
+            <span>Optimization and predictive modeling experience</span>
           </p>
           <div class="tag-list" aria-label="Research and technical interests">
+            <span>AI-assisted development</span>
             <span>Robust optimization</span>
             <span>Network planning</span>
             <span>Machine learning</span>
             <span>Forecasting</span>
             <span>Logistics</span>
-            <span>AI-assisted development</span>
           </div>
         </div>
-      </section>
-
-      <section class="section metrics" aria-label="Professional highlights">
-        <article>
-          <strong>3+ years</strong>
-          <span>Optimization and predictive modeling experience</span>
-        </article>
-        <article>
-          <strong>2022-2023</strong>
-          <span>Best Research Scientist of the Year, Ozyegin University</span>
-        </article>
-        <article>
-          <strong>KPI impact</strong>
-          <span>Network-planning work improving operational indicators and costs</span>
-        </article>
       </section>
 
       <section id="experience" class="section">
@@ -172,7 +167,7 @@
         </div>
       </section>
 
-      <section class="section education">
+      <section id="education" class="section education">
         <div class="section-heading">
           <p class="section-label">Education</p>
           <h2>Industrial engineering and operations research</h2>
@@ -200,41 +195,33 @@
 
       <section id="publications" class="section publications">
         <div class="section-heading">
-          <p class="section-label">Publications</p>
-          <h2>Selected research</h2>
+          <p class="section-label">Research</p>
+          <h2>Published Papers</h2>
         </div>
         <div class="publication-list">
           <article>
-            <h3>
-              <a href="https://www.sciencedirect.com/science/article/pii/S030626192101487X" target="_blank" rel="noreferrer">
-                Robust strategic planning of dynamic wireless charging infrastructure for electric buses
-              </a>
-            </h3>
-            <p>Alwesabi, Y., Avishan, F., Yanıkoğlu, İ., Liu, Z., and Wang, Y. Applied Energy 307 (2022): 118243.</p>
+            <h3>Inventory Routing with Heterogeneous Vehicles and Hazardous Material Backhauling</h3>
+            <p><strong>Farzad Avishan</strong>, Amira Dems, Yossiri Adulyasak, Okan Arslan, and Jean-François Cordeau (2026). <em>Transportation Research Part E: Logistics and Transportation Review</em>, 205, 104491.</p>
           </article>
           <article>
-            <h3>
-              <a href="https://pubsonline.informs.org/doi/10.1287/trsc.2022.1192" target="_blank" rel="noreferrer">
-                Humanitarian relief distribution problem: an adjustable robust optimization approach
-              </a>
-            </h3>
-            <p>Avishan, F., Elyasi, M., Yanıkoğlu, İ., Ekici, A., and Özener, O. Ö. Transportation Science 57, no. 4 (2023): 1096-1114.</p>
+            <h3>Optimization of Drone Base Station Locations and Mobile Charging Drone Routing for Post-Disaster Communication</h3>
+            <p><strong>Farzad Avishan</strong>, Mehmet Berk Karasu, Melike Çap, and İhsan Yanıkoğlu (2025). <em>Computers &amp; Operations Research</em>, 107206.</p>
           </article>
           <article>
-            <h3>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0968090X23003321" target="_blank" rel="noreferrer">
-                Electric bus fleet scheduling under travel time and energy consumption uncertainty
-              </a>
-            </h3>
-            <p>Avishan, F., Yanıkoğlu, İ., and Alwesabi, Y. Transportation Research Part C 156 (2023): 104357.</p>
+            <h3>Adaptive Optimization Approach for Production and Distribution Planning of Perishable Food Products under Demand Uncertainty</h3>
+            <p><strong>Farzad Avishan</strong>, İhsan Yanıkoğlu, and Mehmet Soysal (2025). <em>Annals of Operations Research</em>, 1–48.</p>
           </article>
           <article>
-            <h3>Optimization of drone base station locations and mobile charging drone routing for post-disaster communication</h3>
-            <p>Avishan, F., Karasu, M. B., Çap, M., and Yanıkoğlu, İ. Computers & Operations Research (2025): 107206.</p>
+            <h3><a href="https://www.sciencedirect.com/science/article/pii/S0968090X23003321" target="_blank" rel="noreferrer">An Optimization Approach for Electric Bus Scheduling under Travel Time and Energy Consumption Uncertainty</a></h3>
+            <p><strong>Farzad Avishan</strong>, İhsan Yanıkoğlu, and Yaseen Alwesabi (2023). <em>Transportation Research Part C</em>.</p>
           </article>
           <article>
-            <h3>Inventory routing with heterogeneous vehicles and hazardous material backhauling</h3>
-            <p>Avishan, F., Dems, A., Adulyasak, Y., Arslan, O., and Cordeau, J. F. Transportation Research Part E 205 (2026): 104491.</p>
+            <h3><a href="https://pubsonline.informs.org/doi/10.1287/trsc.2022.1192" target="_blank" rel="noreferrer">Humanitarian Relief Distribution Problem: An Adjustable Robust Optimization Approach</a></h3>
+            <p><strong>Farzad Avishan</strong>, Milad Elyasi, İhsan Yanıkoğlu, Ali Ekici, and Okan Örsan Özener (2023). <em>Transportation Science</em>.</p>
+          </article>
+          <article>
+            <h3><a href="https://www.sciencedirect.com/science/article/pii/S030626192101487X" target="_blank" rel="noreferrer">Robust Strategic Planning of Dynamic Wireless Charging Infrastructure for Electric Buses</a></h3>
+            <p>Yaseen Alwesabi, <strong>Farzad Avishan</strong>, İhsan Yanıkoğlu, Zhaocai Liu, and Yong Wang (2022). <em>Applied Energy</em>, 307, 118243.</p>
           </article>
         </div>
       </section>
@@ -249,7 +236,7 @@
           <a href="tel:+15142334685">+1 514 233 4685</a>
           <a href="https://www.linkedin.com/in/farzad-avishan/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://scholar.google.ca/citations?user=WfsfoxwAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
-          <p>Montréal, Québec, Canada</p>
+          <p>Richmond Hill, Ontario, Canada</p>
         </div>
       </section>
     </main>
