@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Farzad Avishan Website
 
 This is a static website ready for Namecheap shared hosting.
@@ -17,3 +18,7 @@ This is a static website ready for Namecheap shared hosting.
 ## Update the CV
 
 Replace `assets/Farzad-Avishan-CV.pdf` with a newer PDF using the same filename.
+=======
+# farzadavishan.com
+personal website
+>>>>>>> bf6869dca5d96409303bfe986b797fcad8d20ff9
